@@ -1096,11 +1096,11 @@ body.nav-open .menu-toggle span:last-child {
 /* ---------- Banda Dark Sertanejo overrides ---------- */
 
 .brand-logo {
-  width: clamp(74px, 7.5vw, 112px);
-  height: calc(var(--header-h) - 16px);
-  padding: 2px 8px;
-  border: 1px solid var(--line-strong);
-  background: rgba(24, 14, 9, 0.62);
+  width: clamp(78px, 7.8vw, 116px);
+  height: calc(var(--header-h) - 10px);
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .brand-logo img {
@@ -1128,8 +1128,7 @@ body.nav-open .menu-toggle span:last-child {
 @media (max-width: 900px) {
   .brand-logo {
     width: 92px;
-    height: calc(var(--header-h) - 10px);
-    padding: 2px 6px;
+    height: calc(var(--header-h) - 6px);
   }
 
   .hero h1 .hero-love {
@@ -1140,6 +1139,5 @@ body.nav-open .menu-toggle span:last-child {
 @media (max-width: 480px) {
   .brand-logo {
     width: 78px;
-    padding-inline: 4px;
   }
 }

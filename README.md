@@ -40,7 +40,7 @@ http://localhost:5174
 - Spotify artist: `https://open.spotify.com/artist/4aniePiSQrXnWCxKbH0Nay`
 - YouTube Music artist: `https://music.youtube.com/channel/UCl8jFfuIqHLbXDsuO1mY_Dg?si=8e3M0dc5IO2Ffnl-`
 - YouTube channel: `https://www.youtube.com/@BandaDarkSertanejo`
-- Facebook: `https://www.facebook.com/profile.php?id=61593330532724`
+- Facebook: `https://www.facebook.com/profile.php?id=61590410820671`
 - Apple Music artist: `https://music.apple.com/us/artist/banda-dark-sertanejo/6800148195`
 - Featured release: `Nem a Morte Nos Separa`
 - Standout releases: `Nem a Morte Nos Separa`, `O Seu Lado Da Cama`, `O Vazio`
