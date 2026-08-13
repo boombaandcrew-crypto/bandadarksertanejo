@@ -1095,26 +1095,17 @@ body.nav-open .menu-toggle span:last-child {
 
 /* ---------- Banda Dark Sertanejo overrides ---------- */
 
-.brand-wordmark {
-  display: grid;
-  gap: 0;
-  line-height: 1;
-  text-transform: uppercase;
-  width: 168px;
+.brand-logo {
+  width: clamp(74px, 7.5vw, 112px);
+  height: calc(var(--header-h) - 16px);
+  padding: 2px 8px;
+  border: 1px solid var(--line-strong);
+  background: rgba(24, 14, 9, 0.62);
 }
 
-.brand-wordmark span {
-  color: var(--ink);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-}
-
-.brand-wordmark strong {
-  color: #b96b5f;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", Georgia, serif;
-  font-size: 1.08rem;
-  letter-spacing: 0.08em;
+.brand-logo img {
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero h1 {
@@ -1135,17 +1126,10 @@ body.nav-open .menu-toggle span:last-child {
 }
 
 @media (max-width: 900px) {
-  .brand-wordmark {
-    height: 44px;
-    width: 124px;
-  }
-
-  .brand-wordmark span {
-    font-size: 0.58rem;
-  }
-
-  .brand-wordmark strong {
-    font-size: 0.9rem;
+  .brand-logo {
+    width: 92px;
+    height: calc(var(--header-h) - 10px);
+    padding: 2px 6px;
   }
 
   .hero h1 .hero-love {
@@ -1154,15 +1138,8 @@ body.nav-open .menu-toggle span:last-child {
 }
 
 @media (max-width: 480px) {
-  .brand-wordmark {
-    width: 104px;
-  }
-
-  .brand-wordmark span {
-    font-size: 0.5rem;
-  }
-
-  .brand-wordmark strong {
-    font-size: 0.78rem;
+  .brand-logo {
+    width: 78px;
+    padding-inline: 4px;
   }
 }
