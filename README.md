@@ -11,6 +11,7 @@ Static landing page for the Brazilian version of the dark country artist page.
 - Live YouTube channel link.
 - Live Apple Music artist link.
 - Facebook, Instagram, and YouTube follow links.
+- Vercel Web Analytics script for page-view tracking after deployment.
 - Vercel-ready static deployment.
 
 ## Local preview
@@ -34,6 +35,13 @@ http://localhost:5174
 5. Leave build command empty.
 6. Leave output directory empty.
 7. Deploy.
+8. In the Vercel project dashboard, enable Web Analytics.
+9. Visit the production site and wait for page views to appear in Vercel Analytics.
+
+## Visitor analytics
+
+This static site includes Vercel Web Analytics via `/_vercel/insights/script.js`.
+It will not collect visits from `localhost`; it starts collecting after the site is deployed on Vercel and Web Analytics is enabled for the project.
 
 ## Current music links
 
